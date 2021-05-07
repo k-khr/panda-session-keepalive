@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "pack": "powershell -command \"Compress-Archive -Force -Path dist/ -DestinationPath ./dist.zip\""
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.137"
+  }
+}

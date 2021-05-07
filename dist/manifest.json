@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "PandA session keep-alive",
+  "description": "This extension let the PandA session (login state) keep alive.",
+  "version": "0.0.1",
+  "permissions": ["alarms", "tabs"],
+  "host_permissions": [
+    "https://panda.ecs.kyoto-u.ac.jp/portal/site/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
